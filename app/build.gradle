@@ -40,4 +40,8 @@ dependencies {
     implementation project(':apt_library')
     annotationProcessor project(':apt_processor')
 
+//    implementation 'com.github.yezizaiqiutian.aptdemo:apt_annotation:0.0.1'
+//    implementation 'com.github.yezizaiqiutian.aptdemo:apt_library:0.0.1'
+//    annotationProcessor 'com.github.yezizaiqiutian.aptdemo:apt_processor:0.0.1'
+
 }

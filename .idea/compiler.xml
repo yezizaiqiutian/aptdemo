@@ -13,8 +13,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.7">
-      <module name="aptdemo.app" target="11" />
-      <module name="aptdemo.apt_library" target="11" />
+      <module name="aptdemo.app" target="1.8" />
+      <module name="aptdemo.apt_library" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
