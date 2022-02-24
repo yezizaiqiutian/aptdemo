@@ -36,12 +36,12 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
-//    implementation project(':apt_annotation')
-//    implementation project(':apt_library')
-//    annotationProcessor project(':apt_processor')
+    implementation project(':apt_annotation')
+    implementation project(':apt_library')
+    annotationProcessor project(':apt_processor')
 
-    implementation 'com.github.yezizaiqiutian.aptdemo:apt_annotation:0.0.2'
-    implementation 'com.github.yezizaiqiutian.aptdemo:apt_library:0.0.2'
-    annotationProcessor 'com.github.yezizaiqiutian.aptdemo:apt_processor:0.0.2'
+//    implementation 'com.github.yezizaiqiutian.aptdemo:apt_annotation:0.0.2'
+//    implementation 'com.github.yezizaiqiutian.aptdemo:apt_library:0.0.2'
+//    annotationProcessor 'com.github.yezizaiqiutian.aptdemo:apt_processor:0.0.2'
 
 }
